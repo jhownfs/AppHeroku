@@ -32,3 +32,11 @@ var app = {
 };
 
 app.initialize();
+
+
+function callcenter()
+{
+  
+  console.log("teste");
+  window.opener("login.html");
+}
