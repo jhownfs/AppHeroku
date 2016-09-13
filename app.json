@@ -1,0 +1,6 @@
+{
+  "name": "Madre",
+  "description": "A simple Ionic app for Heroku",
+  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
+  "keywords": ["ionic", "static"]
+}
