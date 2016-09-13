@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Madre</title>
+    </head>
+    <body>
+     <div class="logo"></div>
+      <div class="portalServ">
+        <h1><font color="white">Portal de Serviços</font></h1>
+        <h1><font color="white">Consumidor</font></h1>
+      </div>
+
+      <div class="portalCall">
+        <h1><font color="white">CALL CENTER</font></h1>
+          <img src="img/search-glass.png" class="searchicoCa"/>
+        <h1><font color="white">NÃO</font></h1>
+		<img align="left" src="img/icon_duvida.png" class="question"/>
+      </div>
+      
+      <div class="portalBrasil">
+        <h1><font color="white">SIM</font></h1>
+		  <img src="img/search-glass.png" class="searchico"/>
+        <h1><font color="white">BRASIL SIM</font></h1>
+        <img align="left" src="img/icon_duvida.png" class="question1"/>
+      </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
